@@ -40,6 +40,7 @@ import { Facebook } from './plugins/facebook';
 import { File } from './plugins/file';
 import { Transfer } from './plugins/filetransfer';
 import { Flashlight } from './plugins/flashlight';
+import {Geofence} from './plugins/geofence';
 import { Geolocation } from './plugins/geolocation';
 import { Globalization } from './plugins/globalization';
 import { GooglePlus } from './plugins/google-plus';
@@ -62,6 +63,7 @@ import { NativeStorage } from './plugins/nativestorage';
 import { MediaPlugin } from './plugins/media';
 import { Network } from './plugins/network';
 import { OneSignal } from './plugins/onesignal';
+
 import { PhotoViewer } from './plugins/photo-viewer';
 import { ScreenOrientation } from './plugins/screen-orientation';
 import { PinDialog } from './plugins/pin-dialog';
@@ -147,6 +149,7 @@ export {
   EmailComposer,
   Facebook,
   Flashlight,
+  Geofence,
   Globalization,
   GooglePlus,
   GoogleAnalytics,
@@ -216,6 +219,7 @@ window['IonicNative'] = {
   Facebook: Facebook,
   File: File,
   Flashlight: Flashlight,
+  Geofence: Geofence,
   Geolocation: Geolocation,
   Globalization: Globalization,
   GooglePlus: GooglePlus,
